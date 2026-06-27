@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "db:init": "sqlite3 local.db < scripts/init-db.sql"
+    "db:init": "node scripts/init-db.js"
   },
   "dependencies": {
     "better-sqlite3": "^11.10.0",
